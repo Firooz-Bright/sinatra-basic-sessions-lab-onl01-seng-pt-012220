@@ -9,7 +9,8 @@ class App < Sinatra::Base
   
   get '/' do 
     
-    @sesion = 
+    @sesion = sesion
+    erb :index 
   
   
   
