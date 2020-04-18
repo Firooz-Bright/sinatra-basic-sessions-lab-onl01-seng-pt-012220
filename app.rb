@@ -9,7 +9,7 @@ class App < Sinatra::Base
   
   post '/checkout' do 
     
-    
+    @sesion = 
   
   
   
